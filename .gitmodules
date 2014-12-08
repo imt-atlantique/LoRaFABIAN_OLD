@@ -1,3 +1,9 @@
 [submodule "Arduino-Wi6labs-LoRaShield/lorafabian"]
 	path = Arduino-Wi6labs-LoRaShield/lorafabian
 	url = https://github.com/Wi6labs/lorafabian.git
+[submodule "Node-K/Semtech-LoRa-Net/lora_gateway"]
+	path = Node-K/Semtech-LoRa-Net/lora_gateway
+	url = https://github.com/Lora-net/lora_gateway.git
+[submodule "Node-K/Semtech-LoRa-Net/packet_forwarder"]
+	path = Node-K/Semtech-LoRa-Net/packet_forwarder
+	url = https://github.com/Lora-net/packet_forwarder.git
