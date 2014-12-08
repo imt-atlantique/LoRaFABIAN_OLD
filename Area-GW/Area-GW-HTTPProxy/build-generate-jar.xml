@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project LoRaFab-Server">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/home/renzo/lora/github/lora_fabian_server/LoRaFabServer.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="server.LoRaFabServer"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/home/renzo/lora/github/lora_fabian_server/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/commons-codec-1.9.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/commons-lang3-3.3.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/californium-core-1.0.0-SNAPSHOT.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/californium-proxy-1.0.0-SNAPSHOT.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/commons-logging-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/element-connector-1.0.0-SNAPSHOT.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/guava-13.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/httpclient-4.2.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/httpcore-4.2.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/renzo/lora/github/lora_fabian_server/lib/californium/httpcore-nio-4.2.1.jar"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="doc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.9.jar" sourcepath="lib/commons-codec-1.9-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.3.2.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/LoRaFab-Server/lib/commons-lang3-3.3.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/californium/californium-core-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/californium/californium-proxy-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/californium/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/californium/element-connector-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/californium/guava-13.0.jar"/>
+	<classpathentry kind="lib" path="lib/californium/httpclient-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/californium/httpcore-4.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/californium/httpcore-nio-4.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
