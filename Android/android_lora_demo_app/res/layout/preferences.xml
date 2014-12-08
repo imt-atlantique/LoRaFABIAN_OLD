@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:title="Preferences" >
+
+  <PreferenceCategory
+     android:title="HTTP/CoAP Server Options">      
+
+    <EditTextPreference
+        android:key="edit_text_preference_http_server_ip"
+        android:title="HTTP/CoAP Server IP"
+        android:summary="Tap to modify HTTP Server IP"
+        android:dialogTitle="HTTP Server IP"
+    />
+     
+  </PreferenceCategory>
+
+   
+</PreferenceScreen>
