@@ -1,0 +1,3 @@
+[submodule "Arduino-Wi6labs-LoRaShield/lorafabian"]
+	path = Arduino-Wi6labs-LoRaShield/lorafabian
+	url = https://github.com/Wi6labs/lorafabian.git
